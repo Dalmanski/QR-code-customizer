@@ -10,7 +10,7 @@ from tkinter import Tk, Label, Entry, Button, StringVar, IntVar, Spinbox, messag
 from tkinter import filedialog
 from PIL import Image, ImageTk
 
-DEFAULT_SIZE = 35
+DEFAULT_SIZE = 40
 DEFAULT_BORDER = 1
 PREVIEW_MAX = 200
 
