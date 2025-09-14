@@ -8,7 +8,9 @@ pyinstaller ^
   --icon=icon.ico ^
   "QR Code Customizer.py"
 
+set VERSION=1.1.0
+
 echo === Creating ZIP archive ===
-powershell -Command "Compress-Archive -Path 'dist\*' -DestinationPath 'QR_code_customizer.zip' -Force"
+powershell -Command "Compress-Archive -Path 'dist\*' -DestinationPath 'QR_code_customizer_%VERSION%.zip' -Force"
 
 echo === Done! ===
